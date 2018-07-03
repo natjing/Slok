@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TJShareFriendViewController</key>
+	<dict>
+		<key>shareError</key>
+		<string>Fail to share</string>
+		<key>shareSuccess</key>
+		<string>Share success</string>
+		<key>networkError</key>
+		<string>Network unavailable </string>
+		<key>FriendsViewName</key>
+		<string>Friends</string>
+		<key>nofriends</key>
+		<string>No friends</string>
+		<key>sharewithfriends</key>
+		<string>Share with friends</string>
+	</dict>
+	<key>TJShareViewController</key>
+	<dict>
+		<key>shareSuccess</key>
+		<string>Share success</string>
+		<key>noShareList</key>
+		<string>You did not share this key with others.</string>
+		<key>networkError</key>
+		<string>Network unavailable </string>
+		<key>deleteError</key>
+		<string>Fail to delete</string>
+		<key>shareDelet</key>
+		<string>Delete</string>
+		<key>shareLockList</key>
+		<string>Share lock list</string>
+		<key>shareLock</key>
+		<string>Click to share the lock</string>
+	</dict>
+	<key>LoginControllerView</key>
+	<dict>
+		<key>accounttip</key>
+		<string>Name/Email</string>
+		<key>continuewith</key>
+		<string>Continue with</string>
+		<key>retrievepassword</key>
+		<string>Retrieve the password</string>
+		<key>registered</key>
+		<string>Registered</string>
+		<key>login</key>
+		<string>Login</string>
+		<key>password</key>
+		<string>Password</string>
+	</dict>
+	<key>TJSearchViewController</key>
+	<dict>
+		<key>searchfortip</key>
+		<string>Less than three search terms</string>
+		<key>doessms</key>
+		<string>The device does not support SMS</string>
+		<key>smscontent</key>
+		<string>You are invited to use Slok, download link: http://myslok.com/down/slok.php</string>
+		<key>addrequestfailure</key>
+		<string>Add request failed</string>
+		<key>addrequest</key>
+		<string>Add request sent successfully</string>
+		<key>invitestr</key>
+		<string>Invitare</string>
+		<key>add</key>
+		<string>Add</string>
+		<key>networkError</key>
+		<string>Network unavailable</string>
+		<key>searchresultsstr</key>
+		<string>Search results</string>
+		<key>NotfoundStr</key>
+		<string>Not found</string>
+		<key>ContactsStr</key>
+		<string>Contacts</string>
+		<key>searchfor</key>
+		<string>Search username, email, phone</string>
+		<key>SearchViewName</key>
+		<string>Add friend</string>
+		<key>ChercherStr</key>
+		<string>Search</string>
+	</dict>
+	<key>TJFriendsViewController</key>
+	<dict>
+		<key>acceptfriend</key>
+		<string>Accept</string>
+		<key>ignorefriend</key>
+		<string>Block</string>
+		<key>networkError</key>
+		<string>Network unavailable </string>
+		<key>nofriends</key>
+		<string>No friends</string>
+		<key>friendrequest</key>
+		<string>Friend Request</string>
+		<key>FindingTips</key>
+		<string>Find and invite friends</string>
+		<key>FriendsViewName</key>
+		<string>Friends</string>
+	</dict>
+	<key>SubmitemailViewController</key>
+	<dict>
+		<key>enterCorrectMailbox</key>
+		<string>Please enter the correct mailbox</string>
+		<key>logout</key>
+		<string>Logout</string>
+		<key>confirm</key>
+		<string>OK</string>
+		<key>shareCancel</key>
+		<string>Cancel</string>
+		<key>exitaccount</key>
+		<string></string>
+		<key>login</key>
+		<string>Login</string>
+		<key>bindemail</key>
+		<string>Bind</string>
+		<key>submitemail</key>
+		<string>Bind the mailbox</string>
+		<key>enterEmail</key>
+		<string>Please input your email</string>
+	</dict>
+	<key>RetrievepasswordViewController</key>
+	<dict>
+		<key>sendSuccessfully</key>
+		<string>Get success</string>
+		<key>codeerror</key>
+		<string>Verification code error</string>
+		<key>enterPassword</key>
+		<string>Please enter password</string>
+		<key>getauthcode</key>
+		<string>Get code</string>
+		<key>captchaFailure</key>
+		<string>Get the captcha failure</string>
+		<key>submitstr</key>
+		<string>Submit</string>
+		<key>reacquire</key>
+		<string>Reacquire</string>
+		<key>inconsistentpassword</key>
+		<string>Inconsistent password</string>
+		<key>conpassword</key>
+		<string>Confirm Password</string>
+		<key>password</key>
+		<string>Password</string>
+		<key>enterCorrectMailbox</key>
+		<string>Please enter the correct mailbox</string>
+		<key>enterEmail</key>
+		<string>Please input your email</string>
+		<key>authCode</key>
+		<string>Code</string>
+		<key>retrievepassword</key>
+		<string>Retrieve the password</string>
+	</dict>
+	<key>LHSeettingPasswordViewController</key>
+	<dict>
+		<key>enterPassword</key>
+		<string>Please enter password</string>
+		<key>inconsistentpassword</key>
+		<string>Inconsistent password</string>
+		<key>submitstr</key>
+		<string>Submit</string>
+		<key>conpassword</key>
+		<string>Confirm Password</string>
+		<key>password</key>
+		<string>Password</string>
+		<key>authCode</key>
+		<string>Code</string>
+		<key>changepassword</key>
+		<string>Change password</string>
+	</dict>
+	<key>LHShareNameViewController</key>
+	<dict>
+		<key>enterCorrectMailbox</key>
+		<string>Please enter the correct mailbox</string>
+		<key>share</key>
+		<string>Share</string>
+		<key>email</key>
+		<string>Email</string>
+		<key>shareLock</key>
+		<string>Share lock</string>
+		<key>next</key>
+		<string>N E X T</string>
+		<key>enterNote</key>
+		<string>Note it please</string>
+	</dict>
+	<key>LHSettingLockViewController</key>
+	<dict>
+		<key>setupfailed</key>
+		<string>Setup failed, please reset</string>
+		<key>settingup</key>
+		<string>Setting up</string>
+		<key>connectingdevice</key>
+		<string>Connecting device</string>
+		<key>success</key>
+		<string>Success</string>
+		<key>equipmentCode</key>
+		<string>Please enter the key</string>
+		<key>deviceNofound</key>
+		<string>Device not found</string>
+		<key>turnBluetooth</key>
+		<string>Please turn on bluetooth</string>
+		<key>prompt</key>
+		<string>Tip</string>
+		<key>settingPass</key>
+		<string>Set quick-click password</string>
+		<key>configuration</key>
+		<string>Settings</string>
+		<key>adviseLable</key>
+		<string>It will overwrite the original password after you setting new 3-digital password. 
+how to use the &quot;quick-click&quot; :
+1.Press the Bluetooth lock shackle for 3 seconds to open the function.
+2.Key-in a series of number-clicks at current time.
+3.Each time pause 2 second. Lock will be opened after pressed the 3-digital password</string>
+	</dict>
+	<key>LHTGetCodeViewController</key>
+	<dict>
+		<key>registered</key>
+		<string>Registered</string>
+		<key>wechatNoInstall</key>
+		<string>You do not use WeChat to login in any other way</string>
+		<key>gainVoiceCode</key>
+		<string>Get the voice validation code</string>
+		<key>voiceCodeTip</key>
+		<string>Click to get verification code, you will get the verification code through sms  in future 60 second. Please check your phone whether ban the sms if you do not get the verification. Or try to click the voice channel to get the voice verification code.
+</string>
+		<key>sendSuccessfully</key>
+		<string>Send successfully</string>
+		<key>enterPassword</key>
+		<string>Please enter password</string>
+		<key>captchaFailure</key>
+		<string>Get the captcha failure</string>
+		<key>loginFailure</key>
+		<string>Login failure</string>
+		<key>reacquire</key>
+		<string>Reacquire</string>
+		<key>correctPhone</key>
+		<string>Please enter the correct phone number</string>
+		<key>phoneNumber</key>
+		<string>Support only for China</string>
+		<key>phoneLogin</key>
+		<string>Phone login</string>
+		<key>password</key>
+		<string>Password</string>
+		<key>authCode</key>
+		<string>Code</string>
+		<key>login</key>
+		<string>Login</string>
+	</dict>
+	<key>LHPhoneLoginViewController</key>
+	<dict>
+		<key>prompt</key>
+		<string>Tip</string>
+		<key>sureTwitter</key>
+		<string>Do you log in to the Twitter account in the system Settings?</string>
+		<key>networkError</key>
+		<string>Network unavailable </string>
+		<key>failureAuthorize</key>
+		<string>Authorization failure</string>
+		<key>successAuthorize</key>
+		<string>Authorization success</string>
+		<key>cancel</key>
+		<string>Cancel</string>
+		<key>login</key>
+		<string>Login</string>
+	</dict>
+	<key>LHEmailLoginViewController</key>
+	<dict>
+		<key>submitstr</key>
+		<string>Submit</string>
+		<key>inconsistentpassword</key>
+		<string>Inconsistent password</string>
+		<key>registered</key>
+		<string>Registered</string>
+		<key>conpassword</key>
+		<string>Confirm Password</string>
+		<key>firstname</key>
+		<string>Name</string>
+		<key>lastname</key>
+		<string>Mobile number</string>
+		<key>next</key>
+		<string>N E X T</string>
+		<key>loginFailure</key>
+		<string>Login failure</string>
+		<key>sendSuccessfully</key>
+		<string>Send successfully</string>
+		<key>networkError</key>
+		<string>Network unavailable </string>
+		<key>enterPassword</key>
+		<string>Please enter password</string>
+		<key>enterCorrectMailbox</key>
+		<string>Please enter the correct mailbox</string>
+		<key>captchaFailure</key>
+		<string>Get the captcha failure</string>
+		<key>reacquire</key>
+		<string>Reacquire</string>
+		<key>authCode</key>
+		<string>Code</string>
+		<key>email</key>
+		<string>Email</string>
+		<key>emailLogin</key>
+		<string>Email login</string>
+		<key>password</key>
+		<string>Password</string>
+		<key>login</key>
+		<string>Login</string>
+	</dict>
+	<key>LHNoticeViewController</key>
+	<dict>
+		<key>isDeleted</key>
+		<string>The lock has been deleted</string>
+		<key>message</key>
+		<string>Message</string>
+		<key>loadingMore</key>
+		<string>Load more</string>
+		<key>noMoreData</key>
+		<string>No more data</string>
+		<key>finishRefresh</key>
+		<string>Release to refresh</string>
+		<key>refreshData</key>
+		<string>Refresh data</string>
+		<key>loading</key>
+		<string>Loading ...</string>
+	</dict>
+	<key>LHHelp</key>
+	<dict>
+		<key>-2712</key>
+		<string>Already a friend</string>
+		<key>-2438</key>
+		<string>This friend already owns this key</string>
+		<key>-2715</key>
+		<string>The user has been invited, please wait for reply</string>
+		<key>-2275</key>
+		<string>Phone is bound</string>
+		<key>-2581</key>
+		<string>User does not exist</string>
+		<key>-2318</key>
+		<string>This lock is already bound</string>
+		<key>-2301</key>
+		<string>Cannot get current language version</string>
+		<key>-2613</key>
+		<string>Lock entry failed, please try again</string>
+		<key>-2612</key>
+		<string>Lock information already exists</string>
+		<key>-2611</key>
+		<string>Parameter cannot be empty</string>
+		<key>-2610</key>
+		<string>You do not have access!</string>
+		<key>-2202</key>
+		<string>Email registered, please login</string>
+		<key>noLock</key>
+		<string>You Have No Locks</string>
+		<key>-2743</key>
+		<string>Share mailbox can not be empty</string>
+		<key>-2273</key>
+		<string>E-mail can not be empty</string>
+		<key>-2272</key>
+		<string>Binding failed, please try again</string>
+		<key>-2271</key>
+		<string>The email has been bound, please write another one</string>
+		<key>-2231</key>
+		<string>Verification code error, please retrieve it</string>
+		<key>-2230</key>
+		<string>Password change failed, please try again</string>
+		<key>-2220</key>
+		<string>Failed to retrieve the password</string>
+		<key>-2201</key>
+		<string>The verification code is not accurate</string>
+		<key>-2200</key>
+		<string>Registration failed</string>
+		<key>-1111</key>
+		<string>Grant failure</string>
+		<key>-2520</key>
+		<string>The user exists already !</string>
+		<key>-2521</key>
+		<string>Add user failure</string>
+		<key>-2522</key>
+		<string>No empty for user name</string>
+		<key>-2523</key>
+		<string>Fail to share this lock or you do not own this lock</string>
+		<key>-2501</key>
+		<string>Fail to amend data,please try again!</string>
+		<key>-2502</key>
+		<string>User does not exist or wrong password</string>
+		<key>-2503</key>
+		<string>Username has been used</string>
+		<key>-2504</key>
+		<string>Fail to modify,try again please!</string>
+		<key>-2518</key>
+		<string>Fail to Associate</string>
+		<key>-2505</key>
+		<string>Fail to add lock</string>
+		<key>-2506</key>
+		<string>This lock exist already</string>
+		<key>-2507</key>
+		<string>This lock exist already</string>
+		<key>-2508</key>
+		<string>Fail to modify lock</string>
+		<key>-2509</key>
+		<string>Fail to delete lock</string>
+		<key>-2510</key>
+		<string>This lock does not exist</string>
+		<key>-2511</key>
+		<string>Fail to share lock</string>
+		<key>-2512</key>
+		<string>This Shared-lock is invalid </string>
+		<key>-2513</key>
+		<string>This lock has been taken by someone</string>
+		<key>-2514</key>
+		<string>Fail to share lock</string>
+		<key>-2515</key>
+		<string>Fail to share lock</string>
+		<key>-2516</key>
+		<string>Fail to create user</string>
+		<key>-2517</key>
+		<string>Fail to add log</string>
+		<key>-2524</key>
+		<string>This Shared-lock is invalid</string>
+		<key>-2526</key>
+		<string>No share history</string>
+		<key>-2527</key>
+		<string>No share privilege</string>
+		<key>-2529</key>
+		<string>Receiver has existed already</string>
+		<key>-2530</key>
+		<string>Fail to modify ,please try again.</string>
+		<key>-2531</key>
+		<string>No empty receiver be allow</string>
+		<key>-2532</key>
+		<string>Fail to delete the share-lock</string>
+		<key>-2533</key>
+		<string>Network unavailable, please try again</string>
+		<key>-2535</key>
+		<string>Fail to add push-id</string>
+		<key>-2537</key>
+		<string>Push-id does not exist</string>
+		<key>-2538</key>
+		<string>Email share failure</string>
+		<key>-2536</key>
+		<string>Fail to add push-id</string>
+		<key>-2539</key>
+		<string>Delete the sharing lock failure!</string>
+		<key>-2541</key>
+		<string>You have this lock</string>
+		<key>-2542</key>
+		<string>Login failed</string>
+		<key>-2543</key>
+		<string>You don&apos;t have permission to share!</string>
+		<key>-2545</key>
+		<string>Failed to get the verification code</string>
+		<key>-2546</key>
+		<string>The user does not exist. Please go to register!</string>
+		<key>-2547</key>
+		<string>Password mistake</string>
+		<key>-2548</key>
+		<string>The mailbox has not been registered yet</string>
+		<key>-2549 </key>
+		<string>Failed to get the verification code</string>
+		<key>-2550</key>
+		<string>Failed to get the verification code</string>
+		<key>-2551</key>
+		<string>Failed to get the verification code</string>
+		<key>-2552</key>
+		<string>Failed to get the verification code</string>
+		<key>-2553</key>
+		<string>Failed to get the verification code</string>
+		<key>-2554</key>
+		<string>Login failed</string>
+		<key>-2555</key>
+		<string>Password mistake</string>
+		<key>-2556</key>
+		<string>The user does not exist. Please go to register!</string>
+		<key>-2557</key>
+		<string>The phone number can&apos;t be empty</string>
+		<key>-2560</key>
+		<string>The password cannot be empty</string>
+		<key>-2559</key>
+		<string>Mailbox cannot be empty</string>
+		<key>-2561</key>
+		<string>Incorrect phone number format</string>
+		<key>-2562</key>
+		<string>Email format error</string>
+		<key>-2563</key>
+		<string>Phone sharing fails</string>
+		<key>-2564</key>
+		<string>You don&apos;t have permission to share</string>
+		<key>-2565</key>
+		<string>The phone number can&apos;t be empty</string>
+		<key>-2566</key>
+		<string>The phone number can&apos;t be empty</string>
+		<key>-2558</key>
+		<string>The password cannot be empty</string>
+		<key>-2600 </key>
+		<string>You already have this lock</string>
+		<key>-2601</key>
+		<string>The lock name cannot be empty</string>
+	</dict>
+	<key>LHShareViewController</key>
+	<dict>
+		<key>wechatNoInstall</key>
+		<string>You do not use WeChat, please share in other ways</string>
+		<key>shareCancel</key>
+		<string>Cancel</string>
+		<key>enterCorrectMailbox</key>
+		<string>Please enter the correct mailbox</string>
+		<key>enterEmail</key>
+		<string>Please input your email</string>
+		<key>email</key>
+		<string>Email</string>
+		<key>shareFailure</key>
+		<string>Share failure</string>
+		<key>cancel</key>
+		<string>Cancel</string>
+		<key>shareSuccess</key>
+		<string>Share success</string>
+		<key>shareEmail</key>
+		<string>Share to email</string>
+		<key>networkError</key>
+		<string>Network unavailable </string>
+		<key>confirm</key>
+		<string>OK</string>
+		<key>prompt</key>
+		<string>Tip</string>
+		<key>verificationCode</key>
+		<string>Verification code for</string>
+		<key>shareSlok</key>
+		<string>Share lock</string>
+		<key>shareError</key>
+		<string>Fail to share</string>
+		<key>shareWechat</key>
+		<string>Share to Wechat </string>
+		<key>enterNote</key>
+		<string>Note it please</string>
+		<key>shareFacebook</key>
+		<string>Share to facebook</string>
+		<key>shareLock</key>
+		<string>Share lock</string>
+	</dict>
+	<key>LHShareListViewController</key>
+	<dict>
+		<key>updatefailure</key>
+		<string>Upgrade failed</string>
+		<key>firmwareupgrade</key>
+		<string>Firmware upgrade</string>
+		<key>duringupgrade</key>
+		<string>Upgrade, please wait...</string>
+		<key>updatesuccessed</key>
+		<string>Update successed</string>
+		<key>resetsuccess</key>
+		<string>Reset successfully</string>
+		<key>beingreset</key>
+		<string>Locking is being reset</string>
+		<key>connectingdevice</key>
+		<string>Connecting device</string>
+		<key>resetlock</key>
+		<string>Reset the is lock?</string>
+		<key>lockreset</key>
+		<string>Reset lock</string>
+		<key>confirm</key>
+		<string>OK</string>
+		<key>turnBluetooth</key>
+		<string>Please turn on bluetooth</string>
+		<key>prompt</key>
+		<string>Tip</string>
+		<key>success</key>
+		<string>Successfully set up</string>
+		<key>temporaryKey</key>
+		<string>Temporary quick-click password:</string>
+		<key>setKey</key>
+		<string>Set quick-click password</string>
+		<key>shareLockList</key>
+		<string>Share lock list</string>
+		<key>yes</key>
+		<string>Delete</string>
+		<key>no</key>
+		<string>Cancel</string>
+		<key>deleteWarning</key>
+		<string>You are sure to delete the lock?</string>
+		<key>warning</key>
+		<string>Warning</string>
+		<key>noShareList</key>
+		<string>You did not share this key with others.</string>
+		<key>networkError</key>
+		<string>Network unavailable </string>
+		<key>deleteError</key>
+		<string>Fail to delete</string>
+		<key>lockDelet</key>
+		<string>Delete</string>
+		<key>shareDelet</key>
+		<string>Delete</string>
+		<key>shareLock</key>
+		<string>Click to share the lock</string>
+	</dict>
+	<key>LHMyLockViewController</key>
+	<dict>
+		<key>nomanagementrights</key>
+		<string>You do not have administrative rights</string>
+		<key>noSharePower</key>
+		<string>You do not have permission to share</string>
+		<key>noLock</key>
+		<string>You Have No Locks</string>
+		<key>navTitle</key>
+		<string>My lock</string>
+	</dict>
+	<key>LHHistoryViewController</key>
+	<dict>
+		<key>unlockTime</key>
+		<string>Unlock time</string>
+		<key>lockName</key>
+		<string>Lock name</string>
+		<key>userName</key>
+		<string>User name</string>
+		<key>owmUser</key>
+		<string>Current user</string>
+		<key>loadingMore</key>
+		<string>Load more</string>
+		<key>noMoreData</key>
+		<string>No more data</string>
+		<key>finishRefresh</key>
+		<string>Release to refresh</string>
+		<key>refreshData</key>
+		<string>Refresh data</string>
+		<key>loading</key>
+		<string>Loading ...</string>
+		<key>navTitle</key>
+		<string>Record</string>
+	</dict>
+	<key>LHCodeLockViewController</key>
+	<dict>
+		<key>networkError</key>
+		<string>Network unavailable </string>
+		<key>noAuthCode</key>
+		<string>No auth code</string>
+		<key>noLockName</key>
+		<string>No lock name</string>
+		<key>lockName</key>
+		<string>Lock name</string>
+		<key>addError</key>
+		<string>Add failure</string>
+		<key>add</key>
+		<string>Add lock</string>
+		<key>authCode</key>
+		<string>Auth code</string>
+		<key>input</key>
+		<string>Please input auth code</string>
+		<key>navTitle</key>
+		<string>Code</string>
+	</dict>
+	<key>LHSettingViewController</key>
+	<dict>
+		<key>success</key>
+		<string>Successfully set up</string>
+		<key>changepassword</key>
+		<string>Change password</string>
+		<key>french</key>
+		<string>French</string>
+		<key>soundMixing</key>
+		<string>Sound mixing</string>
+		<key>settings</key>
+		<string>Settings</string>
+		<key>switchLanguage</key>
+		<string>Language </string>
+		<key>language</key>
+		<string>English</string>
+		<key>versionNumber</key>
+		<string>Version</string>
+		<key>simplifiedChinese</key>
+		<string>Simplified Chinese</string>
+		<key>english</key>
+		<string>English</string>
+		<key>italian</key>
+		<string>Italian</string>
+		<key>cancel</key>
+		<string>Cancel</string>
+	</dict>
+	<key>LHBleAddLockViewController</key>
+	<dict>
+		<key>turnBluetooth</key>
+		<string>Please turn on bluetooth</string>
+		<key>deviceNofound</key>
+		<string>Device not found</string>
+		<key>networkError</key>
+		<string>Network unavailable </string>
+		<key>selectBluetooth</key>
+		<string>Please choose a lock</string>
+		<key>noLockName</key>
+		<string>No lock name</string>
+		<key>noEquipmentCode</key>
+		<string>This lock had added by other,please select new lock.</string>
+		<key>addError</key>
+		<string>Add failure</string>
+		<key>navTitle</key>
+		<string>Add lock</string>
+		<key>input</key>
+		<string>Please input lock name</string>
+		<key>lockName</key>
+		<string>Lock name</string>
+		<key>bluetooth</key>
+		<string>Bluetooth</string>
+		<key>add</key>
+		<string>Add lock</string>
+	</dict>
+	<key>ViewController</key>
+	<dict>
+		<key>demolabelstr</key>
+		<string>Demo</string>
+		<key>wechatNoInstall</key>
+		<string>You do not use WeChat, please login in other ways</string>
+		<key>sureTwitter</key>
+		<string>Do you log in to the Twitter account in the system Settings?</string>
+		<key>cancel</key>
+		<string>Cancel</string>
+		<key>successAuthorize</key>
+		<string>Grant success</string>
+		<key>failureAuthorize</key>
+		<string>Grant failure</string>
+		<key>loginFailure</key>
+		<string>Login failure</string>
+		<key>networkError</key>
+		<string>Network unavailable</string>
+		<key>enterPassword</key>
+		<string>Please enter password</string>
+		<key>login</key>
+		<string>Login</string>
+		<key>exitaccount</key>
+		<string></string>
+		<key>shareCancel</key>
+		<string>Cancel</string>
+		<key>confirm</key>
+		<string>OK</string>
+		<key>logout</key>
+		<string>Logout</string>
+		<key>noSharePower</key>
+		<string>You do not have permission to share</string>
+		<key>notOpen</key>
+		<string>You may not be the owner of the lock</string>
+		<key>bluetoothAddLock</key>
+		<string>Add lock</string>
+		<key>lowBattery</key>
+		<string>Battery is low</string>
+		<key>timeError</key>
+		<string>Time error</string>
+		<key>openSuccess</key>
+		<string>Open success</string>
+		<key>commandError</key>
+		<string>Can&apos;t open</string>
+		<key>noConnect</key>
+		<string>Not connected</string>
+		<key>turnBluetooth</key>
+		<string>Please turn on bluetooth</string>
+		<key>prompt</key>
+		<string>Tip</string>
+		<key>noLock</key>
+		<string>You Have No Locks</string>
+		<key>sharelock</key>
+		<string>Share</string>
+		<key>codeAddLock</key>
+		<string>Code</string>
+		<key>scanningAddLock</key>
+		<string>Scan</string>
+	</dict>
+	<key>LHFounctionCollectionViewCell</key>
+	<dict>
+		<key>friends</key>
+		<string>Friends</string>
+		<key>bluetoothAddLock</key>
+		<string>Add lock</string>
+		<key>message</key>
+		<string>Message</string>
+		<key>scanningAddLock</key>
+		<string>Scan</string>
+		<key>codeAddLock</key>
+		<string>Code</string>
+		<key>openingRecord</key>
+		<string>Record</string>
+		<key>myLock</key>
+		<string>My locks</string>
+	</dict>
+	<key>LHFunctionControlView</key>
+	<dict>
+		<key>logout</key>
+		<string>Logout</string>
+		<key>account</key>
+		<string>Email</string>
+		<key>settings</key>
+		<string>Settings</string>
+	</dict>
+	<key>LHLockControllerView</key>
+	<dict>
+		<key>autoUnlocked</key>
+		<string>1-Step unlock</string>
+		<key>voiceState</key>
+		<dict>
+			<key>lockOpen</key>
+			<string>Play</string>
+			<key>lockClose</key>
+			<string>Stop</string>
+		</dict>
+		<key>noLock</key>
+		<string>No Locks</string>
+		<key>buleToothState</key>
+		<dict>
+			<key>noConnect</key>
+			<string>Not connected</string>
+			<key>isConnecting</key>
+			<string>Connecting</string>
+			<key>isConnected</key>
+			<string>Connected</string>
+		</dict>
+		<key>slokState</key>
+		<string>Slok state</string>
+		<key>lockState</key>
+		<dict>
+			<key>lockOpen</key>
+			<string>OPEN</string>
+			<key>lockClose</key>
+			<string>OPEN</string>
+		</dict>
+	</dict>
+	<key>LHLoginViewController</key>
+	<dict>
+		<key>retrievepassword</key>
+		<string>Retrieve the password</string>
+		<key>enterPassword</key>
+		<string>Please enter password</string>
+		<key>enterCorrectMailbox</key>
+		<string>Please enter the correct mailbox</string>
+		<key>loginFailure</key>
+		<string>Login failure</string>
+		<key>continuewith</key>
+		<string>Continue with</string>
+		<key>password</key>
+		<string>Password</string>
+		<key>email</key>
+		<string>Email</string>
+		<key>registered</key>
+		<string>Registered</string>
+		<key>phone</key>
+		<string>Phone</string>
+		<key>loginWith</key>
+		<string>Login with</string>
+		<key>wechatNoInstall</key>
+		<string>You do not use WeChat, please login in other ways</string>
+		<key>sureTwitter</key>
+		<string>Do you log in to the Twitter account in the system Settings?</string>
+		<key>prompt</key>
+		<string>Tip</string>
+		<key>login</key>
+		<string>Login</string>
+		<key>networkError</key>
+		<string>Network unavailable</string>
+		<key>successAuthorize</key>
+		<string>Grant success</string>
+		<key>failureAuthorize</key>
+		<string>Grant failure</string>
+		<key>cancel</key>
+		<string>Cancel</string>
+	</dict>
+</dict>
+</plist>

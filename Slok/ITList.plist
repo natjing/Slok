@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TJShareFriendViewController</key>
+	<dict>
+		<key>shareError</key>
+		<string>La condivisione non è riuscita</string>
+		<key>shareSuccess</key>
+		<string>Condividi il successo</string>
+		<key>networkError</key>
+		<string>Problema di rete</string>
+		<key>FriendsViewName</key>
+		<string>Amici</string>
+		<key>nofriends</key>
+		<string>Nessun amico</string>
+		<key>sharewithfriends</key>
+		<string>Condividi con gli amici</string>
+	</dict>
+	<key>TJShareViewController</key>
+	<dict>
+		<key>shareSuccess</key>
+		<string>Condividi il successo</string>
+		<key>noShareList</key>
+		<string>Non hai condiviso questa chiave con qualcun altro.</string>
+		<key>networkError</key>
+		<string>Problema di rete</string>
+		<key>deleteError</key>
+		<string>La cancellazione non è riuscita</string>
+		<key>shareDelet</key>
+		<string>Cancella</string>
+		<key>shareLockList</key>
+		<string>Non hai condiviso questa chiave con qualcun altro.</string>
+		<key>shareLock</key>
+		<string>Fare clic per condividere la chiusura</string>
+	</dict>
+	<key>LoginControllerView</key>
+	<dict>
+		<key>accounttip</key>
+		<string>Nome / E-mail</string>
+		<key>continuewith</key>
+		<string>Continua con</string>
+		<key>retrievepassword</key>
+		<string>Recupera la password</string>
+		<key>registered</key>
+		<string>Registrato</string>
+		<key>login</key>
+		<string>Login</string>
+		<key>password</key>
+		<string>Password</string>
+	</dict>
+	<key>TJSearchViewController</key>
+	<dict>
+		<key>searchfortip</key>
+		<string>Meno di tre termini di ricerca</string>
+		<key>doessms</key>
+		<string>Il dispositivo non supporta gli SMS</string>
+		<key>smscontent</key>
+		<string>Sei invitato ad usare Slok, link per il download: http://myslok.com/down/slok.php</string>
+		<key>addrequestfailure</key>
+		<string>Aggiungi richiesta non riuscita</string>
+		<key>addrequest</key>
+		<string>Aggiungi richiesta inviata con successo</string>
+		<key>invitestr</key>
+		<string>Invitare</string>
+		<key>add</key>
+		<string>Aggiungere</string>
+		<key>networkError</key>
+		<string>Problema di rete</string>
+		<key>searchresultsstr</key>
+		<string>Risultati di ricerca</string>
+		<key>NotfoundStr</key>
+		<string>Non trovato</string>
+		<key>ContactsStr</key>
+		<string>Contatti</string>
+		<key>searchfor</key>
+		<string>Cerca nome utente, email, numero di cellulare</string>
+		<key>SearchViewName</key>
+		<string>Aggiungi amici</string>
+		<key>ChercherStr</key>
+		<string>Ricerca</string>
+	</dict>
+	<key>TJFriendsViewController</key>
+	<dict>
+		<key>ignorefriend</key>
+		<string>Block</string>
+		<key>acceptfriend</key>
+		<string>Reception</string>
+		<key>networkError</key>
+		<string>Problema di rete</string>
+		<key>nofriends</key>
+		<string>Nessun amico</string>
+		<key>friendrequest</key>
+		<string>Richiesta di amicizia</string>
+		<key>FindingTips</key>
+		<string>Trova e invita amici</string>
+		<key>FriendsViewName</key>
+		<string>Amici</string>
+	</dict>
+	<key>SubmitemailViewController</key>
+	<dict>
+		<key>enterCorrectMailbox</key>
+		<string>Inserire l&apos;indirizzo mail corretto</string>
+		<key>exitaccount</key>
+		<string></string>
+		<key>shareCancel</key>
+		<string>Cancella</string>
+		<key>confirm</key>
+		<string>Determinare</string>
+		<key>logout</key>
+		<string>Disconnetti</string>
+		<key>bindemail</key>
+		<string>Legame</string>
+		<key>submitemail</key>
+		<string>Bind la cassetta postale</string>
+		<key>enterEmail</key>
+		<string>Inserire indirizzo mail</string>
+	</dict>
+	<key>RetrievepasswordViewController</key>
+	<dict>
+		<key>sendSuccessfully</key>
+		<string>Ottieni successo</string>
+		<key>codeerror</key>
+		<string>Errore del codice di verifica</string>
+		<key>enterPassword</key>
+		<string>Inserisci la tua password</string>
+		<key>getauthcode</key>
+		<string>Ottieni il codice di verifica</string>
+		<key>captchaFailure</key>
+		<string>Impossibile ottenere il codice di verifica</string>
+		<key>submitstr</key>
+		<string>Presentare</string>
+		<key>reacquire</key>
+		<string>Riacquisire</string>
+		<key>inconsistentpassword</key>
+		<string>Password incoerente</string>
+		<key>conpassword</key>
+		<string>Conferma password</string>
+		<key>password</key>
+		<string>Password</string>
+		<key>enterCorrectMailbox</key>
+		<string>Inserire l&apos;indirizzo mail corretto</string>
+		<key>enterEmail</key>
+		<string>Inserire indirizzo mail</string>
+		<key>authCode</key>
+		<string>Codice di verifica</string>
+		<key>retrievepassword</key>
+		<string>Recupera la password</string>
+	</dict>
+	<key>LHSeettingPasswordViewController</key>
+	<dict>
+		<key>enterPassword</key>
+		<string>Inserisci la tua password</string>
+		<key>inconsistentpassword</key>
+		<string>Password incoerente</string>
+		<key>submitstr</key>
+		<string>Presentare</string>
+		<key>conpassword</key>
+		<string>Conferma password</string>
+		<key>password</key>
+		<string>Password</string>
+		<key>authCode</key>
+		<string>Codice</string>
+		<key>changepassword</key>
+		<string>Cambia la password</string>
+	</dict>
+	<key>LHShareNameViewController</key>
+	<dict>
+		<key>enterCorrectMailbox</key>
+		<string>Inserire l&apos;indirizzo mail corretto</string>
+		<key>share</key>
+		<string>Quota</string>
+		<key>email</key>
+		<string>Email dei destinatari</string>
+		<key>shareLock</key>
+		<string>Condividi la chiave</string>
+		<key>next</key>
+		<string>Il prossimo</string>
+		<key>enterNote</key>
+		<string>Nome del destinatario</string>
+	</dict>
+	<key>LHSettingLockViewController</key>
+	<dict>
+		<key>setupfailed</key>
+		<string>Installazione fallita, resettare</string>
+		<key>connectingdevice</key>
+		<string>Dispositivo di collegamento</string>
+		<key>settingup</key>
+		<string>Impostazione</string>
+		<key>turnBluetooth</key>
+		<string>Si prega di attivare il Bluetooth</string>
+		<key>success</key>
+		<string>Successo</string>
+		<key>equipmentCode</key>
+		<string>Inserisci la chiave</string>
+		<key>deviceNofound</key>
+		<string>Nessun dispositivo trovato</string>
+		<key>prompt</key>
+		<string>Sollecito</string>
+		<key>settingPass</key>
+		<string>Imposta quick-click password </string>
+		<key>configuration</key>
+		<string>Impostare</string>
+		<key>adviseLable</key>
+		<string>Dopo il successo del set verrà sovrascritto la password originale, utilizzare il seguente modo：1. Premere il gancio di blocco Bluetooth per 3 secondi per attivare la funzione &quot;quick-click&quot;.2. Premere nuovamente il numero di password impostato.3.Il numero di volte per password premere 2S e quindi premere uno.</string>
+	</dict>
+	<key>LHTGetCodeViewController</key>
+	<dict>
+		<key>registered</key>
+		<string>Registrato</string>
+		<key>gainVoiceCode</key>
+		<string>Ottieni un codice di verifica vocale</string>
+		<key>voiceCodeTip</key>
+		<string>Clicca per ottenere il codice di verifica con un SMS nei prossimi 60 secondi. Ti preghiamo di controllare il telefono nel caso non ricevesse l&apos;SMS di verifica o prova a cliccare il link vocale per il codice vocale di verifica</string>
+		<key>sendSuccessfully</key>
+		<string>Inviati con successo</string>
+		<key>enterPassword</key>
+		<string>Inserisci la tua password</string>
+		<key>captchaFailure</key>
+		<string>Impossibile ottenere il codice di verifica</string>
+		<key>loginFailure</key>
+		<string>Accesso non riuscito</string>
+		<key>reacquire</key>
+		<string>Riacquisire</string>
+		<key>correctPhone</key>
+		<string>Inserire il numero di telefono corretto</string>
+		<key>networkError</key>
+		<string>Problema di rete</string>
+		<key>login</key>
+		<string>Login </string>
+		<key>phoneNumber</key>
+		<string>Sostiene solo la Cina</string>
+		<key>phoneLogin</key>
+		<string>Accesso telefono</string>
+		<key>password</key>
+		<string>Password</string>
+		<key>authCode</key>
+		<string>Codice</string>
+	</dict>
+	<key>LHPhoneLoginViewController</key>
+	<dict>
+		<key>prompt</key>
+		<string>Sollecito</string>
+		<key>sureTwitter</key>
+		<string>Accedi al tuo account Twitter nelle impostazioni di sistema?</string>
+		<key>networkError</key>
+		<string>Problema di rete</string>
+		<key>successAuthorize</key>
+		<string>Successo autorizzato</string>
+		<key>failureAuthorize</key>
+		<string>L&apos;autorizzazione non è riuscita</string>
+		<key>cancel</key>
+		<string>Annulla a metà strada</string>
+		<key>login</key>
+		<string>Login</string>
+	</dict>
+	<key>LHEmailLoginViewController</key>
+	<dict>
+		<key>submitstr</key>
+		<string>Presentare</string>
+		<key>codeerror</key>
+		<string>Errore del codice di verifica</string>
+		<key>inconsistentpassword</key>
+		<string>Password incoerente</string>
+		<key>registered</key>
+		<string>Registrato</string>
+		<key>firstname</key>
+		<string>Nome utente</string>
+		<key>lastname</key>
+		<string>Numero di cellulare</string>
+		<key>conpassword</key>
+		<string>Conferma password</string>
+		<key>next</key>
+		<string>Il prossimo</string>
+		<key>loginFailure</key>
+		<string>Accesso non riuscito</string>
+		<key>sendSuccessfully</key>
+		<string>Inviati con successo</string>
+		<key>networkError</key>
+		<string>Problema di rete</string>
+		<key>enterPassword</key>
+		<string>Inserisci la tua password</string>
+		<key>enterCorrectMailbox</key>
+		<string>Inserisci l&apos;indirizzo e-mail corretto</string>
+		<key>captchaFailure</key>
+		<string>Impossibile ottenere il codice di verifica</string>
+		<key>reacquire</key>
+		<string>Riacquisire</string>
+		<key>authCode</key>
+		<string>Codice</string>
+		<key>email</key>
+		<string>E-mail</string>
+		<key>emailLogin</key>
+		<string>Login cassetta postale</string>
+		<key>password</key>
+		<string>Password</string>
+		<key>login</key>
+		<string>Login - accesso</string>
+	</dict>
+	<key>LHNoticeViewController</key>
+	<dict>
+		<key>loadingMore</key>
+		<string>Carica di più</string>
+		<key>isDeleted</key>
+		<string>La serratura è stata eliminata</string>
+		<key>message</key>
+		<string>Messaggio</string>
+		<key>noMoreData</key>
+		<string>Nessun altro dato</string>
+		<key>finishRefresh</key>
+		<string>Allentare i dati di aggiornamento</string>
+		<key>refreshData</key>
+		<string>Aggiorna i dati</string>
+		<key>loading</key>
+		<string>Aggiornamento dei dati ...</string>
+	</dict>
+	<key>LHHelp</key>
+	<dict>
+		<key>-2712</key>
+		<string>Sei già un amico</string>
+		<key>-2438</key>
+		<string>Questo amico possiede già questa chiave</string>
+		<key>-2715</key>
+		<string>L&apos;utente è stato invitato, attendere la risposta</string>
+		<key>-2275</key>
+		<string>Il telefono è vincolato</string>
+		<key>-2581</key>
+		<string>L&apos;utente non esiste</string>
+		<key>-2318</key>
+		<string>Questo blocco è già associato</string>
+		<key>-2301</key>
+		<string>Impossibile ottenere la versione corrente della lingua</string>
+		<key>-2613</key>
+		<string>Blocca la voce fallita, per favore riprova</string>
+		<key>-2612</key>
+		<string>Le informazioni di blocco esistono già</string>
+		<key>-2611</key>
+		<string>Il parametro non può essere vuoto</string>
+		<key>-2610</key>
+		<string>Non hai accesso!</string>
+		<key>-2202</key>
+		<string>Email registrata, effettua il login</string>
+		<key>noLock</key>
+		<string>Non hai ancora bloccato</string>
+		<key>-2743</key>
+		<string>La cassetta postale di condivisione non può essere vuota</string>
+		<key>-2273</key>
+		<string>La cassetta postale non può essere vuota</string>
+		<key>-2272</key>
+		<string>Binding fallito, per favore riprova</string>
+		<key>-2271</key>
+		<string>L&apos;email è stata vincolata, per favore scrivine un altro</string>
+		<key>-2231</key>
+		<string>Errore nel codice di verifica, si prega di recuperarlo</string>
+		<key>-2230</key>
+		<string>Cambio password fallito, per favore riprova</string>
+		<key>-2220</key>
+		<string>Impossibile recuperare la password</string>
+		<key>-2201</key>
+		<string>Il codice di verifica non è accurato</string>
+		<key>-2200</key>
+		<string>Registrazione fallita</string>
+		<key>-1111</key>
+		<string>Autorizzazione fallita</string>
+		<key>-2520</key>
+		<string>Questo utente esiste già!</string>
+		<key>-2521</key>
+		<string>Aggiungi utente fallito</string>
+		<key>-2522</key>
+		<string>Il nome utente non può essere vuoto!</string>
+		<key>-2523</key>
+		<string>Non hai il blocco o il blocco condiviso è scaduto!</string>
+		<key>-2501</key>
+		<string>La modifica dei dati non è corretta, per favore riprova!</string>
+		<key>-2502</key>
+		<string>L&apos;utente non esiste o la password non è corretta</string>
+		<key>-2503</key>
+		<string>Questo nome utente esiste già</string>
+		<key>-2504</key>
+		<string>Modifica fallita, per favore riprova!</string>
+		<key>-2518</key>
+		<string>Impossibile aggiungere l&apos;associazione</string>
+		<key>-2505</key>
+		<string>Impossibile aggiungere il blocco</string>
+		<key>-2506</key>
+		<string>Questo blocco esiste già!</string>
+		<key>-2507</key>
+		<string>Questo blocco esiste già</string>
+		<key>-2508</key>
+		<string>Modifica il blocco fallito</string>
+		<key>-2509</key>
+		<string>Elimina blocco fallito</string>
+		<key>-2510</key>
+		<string>Questo blocco non esiste!</string>
+		<key>-2511</key>
+		<string>Blocco condivisione fallito</string>
+		<key>-2512</key>
+		<string>Il blocco condiviso è scaduto!</string>
+		<key>-2513</key>
+		<string>La serratura è stata ricevuta!</string>
+		<key>-2514</key>
+		<string>Bloccare la condivisione sbagliata!</string>
+		<key>-2515</key>
+		<string>Bloccare la condivisione sbagliata!</string>
+		<key>-2516</key>
+		<string>Genera eccezione utente!</string>
+		<key>-2517</key>
+		<string>Impossibile aggiungere record</string>
+		<key>-2524</key>
+		<string>Il blocco condiviso non è aggiornato!</string>
+		<key>-2526</key>
+		<string>Non hai condiviso il disco!</string>
+		<key>-2527</key>
+		<string>Non hai il permesso di condividere</string>
+		<key>-2529</key>
+		<string>Il nome del destinatario esiste già</string>
+		<key>-2530</key>
+		<string>Modifica fallita, per favore riprova!</string>
+		<key>-2531</key>
+		<string>Il nome del destinatario non può essere vuoto!</string>
+		<key>-2532</key>
+		<string>Elimina blocco condiviso fallito!</string>
+		<key>-2533</key>
+		<string>La rete è occupata, per favore riprova!</string>
+		<key>-2535</key>
+		<string>Aggiungi l&apos;ID push fallito!</string>
+		<key>-2537</key>
+		<string>L&apos;ID push non esiste!</string>
+		<key>-2538</key>
+		<string>Condivisione e-mail fallita!</string>
+		<key>-2536</key>
+		<string>Aggiungi l&apos;ID push fallito!</string>
+		<key>-2539</key>
+		<string>Elimina blocco condiviso fallito!</string>
+		<key>-2541</key>
+		<string>Hai già questo blocco!</string>
+		<key>-2542</key>
+		<string>Utente di accesso fallito!</string>
+		<key>-2543</key>
+		<string>Non hai il permesso di condividere!</string>
+		<key>-2545</key>
+		<string>Impossibile ottenere il codice di verifica!</string>
+		<key>-2546</key>
+		<string>L&apos;utente non esiste. Vai al registro!</string>
+		<key>-2548</key>
+		<string>Questa email non è ancora stata registrata</string>
+		<key>-2549 </key>
+		<string>Impossibile ottenere il codice di verifica</string>
+		<key>-2550</key>
+		<string>Impossibile ottenere il codice di verifica</string>
+		<key>-2551</key>
+		<string>Impossibile ottenere il codice di verifica</string>
+		<key>-2552</key>
+		<string>Impossibile ottenere il codice di verifica</string>
+		<key>-2553 </key>
+		<string>Impossibile ottenere il codice di verifica</string>
+		<key>-2554</key>
+		<string>Utente di accesso fallito!</string>
+		<key>-2555</key>
+		<string>Inserisci la password errata, per favore riprova!</string>
+		<key>-2556</key>
+		<string>L&apos;utente non esiste. Vai al registro!</string>
+		<key>-2557</key>
+		<string>Il numero di telefono non può essere vuoto!</string>
+		<key>-2558</key>
+		<string>La password non può essere vuota!</string>
+		<key>-2559</key>
+		<string>L&apos;e-mail non può essere vuota!</string>
+		<key>-2560</key>
+		<string>La password non può essere vuota!</string>
+		<key>-2561</key>
+		<string>Errore di formato del numero di telefono!</string>
+		<key>-2562</key>
+		<string>Errore di formato e-mail!</string>
+		<key>-2563</key>
+		<string>Condivisione del telefono fallita!</string>
+		<key>-2564</key>
+		<string>Non hai il permesso di condividere!</string>
+		<key>-2565</key>
+		<string>Il numero di telefono non può essere vuoto!</string>
+		<key>-2566</key>
+		<string>Il numero di telefono non può essere vuoto!</string>
+		<key>-2600</key>
+		<string>Hai già questo blocco!</string>
+		<key>-2601</key>
+		<string>Il nome del blocco non può essere vuoto!</string>
+	</dict>
+	<key>LHShareViewController</key>
+	<dict>
+		<key>wechatNoInstall</key>
+		<string>Non usi WeChat per favore usa altri modi per condividere</string>
+		<key>shareCancel</key>
+		<string>Cancella</string>
+		<key>email</key>
+		<string>E-mail</string>
+		<key>enterEmail</key>
+		<string>Inserire indirizzo mail</string>
+		<key>enterCorrectMailbox</key>
+		<string>Inserire l&apos;indirizzo mail corretto</string>
+		<key>shareSuccess</key>
+		<string>Condividi il successo</string>
+		<key>cancel</key>
+		<string>Annulla a metà strada</string>
+		<key>shareFailure</key>
+		<string>La condivisione non è riuscita</string>
+		<key>shareEmail</key>
+		<string>Condividi nell casella mail</string>
+		<key>networkError</key>
+		<string>Problema di rete</string>
+		<key>prompt</key>
+		<string>Sollecito</string>
+		<key>confirm</key>
+		<string>Determinare</string>
+		<key>shareSlok</key>
+		<string>Blocca</string>
+		<key>verificationCode</key>
+		<string>Il codice di verifica è:</string>
+		<key>shareError</key>
+		<string>La condivisione non è riuscita</string>
+		<key>shareWechat</key>
+		<string>Condividi su Wechat</string>
+		<key>enterNote</key>
+		<string>Annotalo per favore</string>
+		<key>shareFacebook</key>
+		<string>Condividi su Facebook</string>
+		<key>shareLock</key>
+		<string>Condividi la chiave</string>
+	</dict>
+	<key>LHShareListViewController</key>
+	<dict>
+		<key>updatefailure</key>
+		<string>Aggiornamento fallito</string>
+		<key>firmwareupgrade</key>
+		<string>Aggiornamento del firmware</string>
+		<key>duringupgrade</key>
+		<string>Aggiornamento, per favore aspetta ...</string>
+		<key>updatesuccessed</key>
+		<string>Aggiornamento riuscito</string>
+		<key>resetsuccess</key>
+		<string>Ripristina con successo</string>
+		<key>beingreset</key>
+		<string>Il blocco è in corso di ripristino</string>
+		<key>connectingdevice</key>
+		<string>Dispositivo di collegamento</string>
+		<key>resetlock</key>
+		<string>Resettare il blocco è?</string>
+		<key>lockreset</key>
+		<string>Ripristina blocco</string>
+		<key>confirm</key>
+		<string>Determinare</string>
+		<key>turnBluetooth</key>
+		<string>Si prega di attivare il Bluetooth</string>
+		<key>prompt</key>
+		<string>Sollecito</string>
+		<key>success</key>
+		<string>Impostato con successo</string>
+		<key>temporaryKey</key>
+		<string>Temporaneo quick-click password:</string>
+		<key>setKey</key>
+		<string>Imposta quick-click password</string>
+		<key>shareLockList</key>
+		<string>Condividi elenco di blocco</string>
+		<key>no</key>
+		<string>Annullato</string>
+		<key>yes</key>
+		<string>Cancella</string>
+		<key>deleteWarning</key>
+		<string>Sei sicuro di voler eliminare il blocco?</string>
+		<key>warning</key>
+		<string>Avvertimento</string>
+		<key>noShareList</key>
+		<string>Non hai condiviso questa chiave con qualcun altro.</string>
+		<key>networkError</key>
+		<string>Problema di rete</string>
+		<key>deleteError</key>
+		<string>La cancellazione non è riuscita</string>
+		<key>lockDelet</key>
+		<string>Cancella</string>
+		<key>shareDelet</key>
+		<string>Cancella</string>
+		<key>shareLock</key>
+		<string>Fare clic per condividere la chiusura</string>
+	</dict>
+	<key>LHMyLockViewController</key>
+	<dict>
+		<key>nomanagementrights</key>
+		<string>Non hai diritti amministrativi</string>
+		<key>noSharePower</key>
+		<string>Non hai permesso di condividere</string>
+		<key>noLock</key>
+		<string>Non hai ancora bloccato</string>
+		<key>navTitle</key>
+		<string>I miei blocchi</string>
+	</dict>
+	<key>LHHistoryViewController</key>
+	<dict>
+		<key>userName</key>
+		<string>Utente</string>
+		<key>lockName</key>
+		<string>Blocco</string>
+		<key>unlockTime</key>
+		<string>Tempo</string>
+		<key>owmUser</key>
+		<string>Utente corrente</string>
+		<key>loadingMore</key>
+		<string>Carica di più</string>
+		<key>noMoreData</key>
+		<string>Nessun altro dato</string>
+		<key>finishRefresh</key>
+		<string>Allentare i dati di aggiornamento</string>
+		<key>refreshData</key>
+		<string>Aggiorna i dati</string>
+		<key>loading</key>
+		<string>Aggiornamento dei dati ...</string>
+		<key>navTitle</key>
+		<string>Cronologia</string>
+	</dict>
+	<key>LHCodeLockViewController</key>
+	<dict>
+		<key>networkError</key>
+		<string>Problema di rete</string>
+		<key>noLockName</key>
+		<string>Inserisci il nome della serratura</string>
+		<key>noAuthCode</key>
+		<string>Inserisci un codice di verifica</string>
+		<key>lockName</key>
+		<string>Nome blocco</string>
+		<key>addError</key>
+		<string>Aggiungi non riuscito</string>
+		<key>add</key>
+		<string>Aggiungere</string>
+		<key>authCode</key>
+		<string>Codice di verifica</string>
+		<key>input</key>
+		<string>Inserisci un codice di verifica</string>
+		<key>navTitle</key>
+		<string>Aggiungi una serratura</string>
+	</dict>
+	<key>LHSettingViewController</key>
+	<dict>
+		<key>success</key>
+		<string>Impostato con successo</string>
+		<key>changepassword</key>
+		<string>Cambia la password</string>
+		<key>french</key>
+		<string>Francese</string>
+		<key>soundMixing</key>
+		<string>Mixing</string>
+		<key>settings</key>
+		<string>Impostare</string>
+		<key>switchLanguage</key>
+		<string>Lingua</string>
+		<key>language</key>
+		<string>Italiano</string>
+		<key>versionNumber</key>
+		<string>Numero di versione</string>
+		<key>simplifiedChinese</key>
+		<string>Cinese semplificato</string>
+		<key>english</key>
+		<string>Inglese</string>
+		<key>cancel</key>
+		<string>Annullato</string>
+		<key>italian</key>
+		<string>Italiano</string>
+	</dict>
+	<key>LHBleAddLockViewController</key>
+	<dict>
+		<key>turnBluetooth</key>
+		<string>Accendi Bluetooth</string>
+		<key>deviceNofound</key>
+		<string>Nessun dispositivo trovato</string>
+		<key>networkError</key>
+		<string>Problema di rete</string>
+		<key>noEquipmentCode</key>
+		<string>La certificazione Bluetooth non è riuscita, seleziona nuovamente</string>
+		<key>noLockName</key>
+		<string>Inserisci il nome della serratura</string>
+		<key>selectBluetooth</key>
+		<string>Per favore scegli un lucchetto</string>
+		<key>addError</key>
+		<string>Aggiungi non riuscito</string>
+		<key>navTitle</key>
+		<string>Add lock</string>
+		<key>input</key>
+		<string>Inserisci il nome della serratura</string>
+		<key>lockName</key>
+		<string>Nome blocco</string>
+		<key>bluetooth</key>
+		<string>Bluetooth</string>
+		<key>add</key>
+		<string>Aggiungere</string>
+	</dict>
+	<key>ViewController</key>
+	<dict>
+		<key>demolabelstr</key>
+		<string>Demo</string>
+		<key>wechatNoInstall</key>
+		<string>Non usi il wechat per favore usa altri mezzi per accedere</string>
+		<key>sureTwitter</key>
+		<string>Accedi al tuo account Twitter nelle impostazioni di sistema?</string>
+		<key>cancel</key>
+		<string>Annulla a metà strada</string>
+		<key>successAuthorize</key>
+		<string>Successo autorizzato</string>
+		<key>failureAuthorize</key>
+		<string>L&apos;autorizzazione non è riuscita</string>
+		<key>loginFailure</key>
+		<string>Accesso non riuscito</string>
+		<key>networkError</key>
+		<string>Problema di rete</string>
+		<key>enterPassword</key>
+		<string>Inserisci la tua password</string>
+		<key>login</key>
+		<string>Login</string>
+		<key>exitaccount</key>
+		<string></string>
+		<key>shareCancel</key>
+		<string>Cancella</string>
+		<key>confirm</key>
+		<string>Determinare</string>
+		<key>logout</key>
+		<string>Disconnetti</string>
+		<key>noSharePower</key>
+		<string>Non hai permesso di condividere</string>
+		<key>notOpen</key>
+		<string>Potresti non essere il proprietario della serratura</string>
+		<key>bluetoothAddLock</key>
+		<string>Add lock</string>
+		<key>commandError</key>
+		<string>Impossibile aprire</string>
+		<key>openSuccess</key>
+		<string>Apri con successo</string>
+		<key>timeError</key>
+		<string>Il tempo è sbagliato</string>
+		<key>lowBattery</key>
+		<string>Potenza della batteria scarica</string>
+		<key>noConnect</key>
+		<string>Non connesso</string>
+		<key>prompt</key>
+		<string>Sollecito</string>
+		<key>turnBluetooth</key>
+		<string>Accendi Bluetooth</string>
+		<key>noLock</key>
+		<string>Non hai ancora bloccato</string>
+		<key>sharelock</key>
+		<string>Condividi</string>
+		<key>codeAddLock</key>
+		<string>Codice</string>
+		<key>scanningAddLock</key>
+		<string>Scansione</string>
+	</dict>
+	<key>LHFounctionCollectionViewCell</key>
+	<dict>
+		<key>friends</key>
+		<string>Amici</string>
+		<key>message</key>
+		<string>Messaggio</string>
+		<key>scanningAddLock</key>
+		<string>Scansione</string>
+		<key>codeAddLock</key>
+		<string>Codice</string>
+		<key>openingRecord</key>
+		<string>Cronologia</string>
+		<key>myLock</key>
+		<string>I miei blocchi</string>
+		<key>bluetoothAddLock</key>
+		<string>Add lock</string>
+	</dict>
+	<key>LHFunctionControlView</key>
+	<dict>
+		<key>logout</key>
+		<string>Disconnetti</string>
+		<key>account</key>
+		<string>Email</string>
+		<key>settings</key>
+		<string>Impostazioni</string>
+	</dict>
+	<key>LHLockControllerView</key>
+	<dict>
+		<key>autoUnlocked</key>
+		<string>Auto sbloccaggio</string>
+		<key>voiceState</key>
+		<dict>
+			<key>lockOpen</key>
+			<string>Broadcast</string>
+			<key>lockClose</key>
+			<string>Stop</string>
+		</dict>
+		<key>noLock</key>
+		<string>Non hai ancora bloccato</string>
+		<key>buleToothState</key>
+		<dict>
+			<key>noConnect</key>
+			<string>Non connesso</string>
+			<key>isConnecting</key>
+			<string>Sta collegando</string>
+			<key>isConnected</key>
+			<string>Connesso</string>
+		</dict>
+		<key>slokState</key>
+		<string>Stato Slok</string>
+		<key>lockState</key>
+		<dict>
+			<key>lockOpen</key>
+			<string>O P E N</string>
+			<key>lockClose</key>
+			<string>O P E N</string>
+		</dict>
+	</dict>
+	<key>LHLoginViewController</key>
+	<dict>
+		<key>retrievepassword</key>
+		<string>Recupera la password</string>
+		<key>enterPassword</key>
+		<string>Inserisci la tua password</string>
+		<key>enterCorrectMailbox</key>
+		<string>Inserisci l&apos;indirizzo e-mail corretto</string>
+		<key>loginFailure</key>
+		<string>Accesso non riuscito</string>
+		<key>continuewith</key>
+		<string>Continua con</string>
+		<key>password</key>
+		<string>Password</string>
+		<key>email</key>
+		<string>E-mail</string>
+		<key>registered</key>
+		<string>Registrato</string>
+		<key>phone</key>
+		<string>Telefono</string>
+		<key>loginWith</key>
+		<string>accesso con</string>
+		<key>wechatNoInstall</key>
+		<string>Non usi il wechat per favore usa altri mezzi per accedere</string>
+		<key>sureTwitter</key>
+		<string>Accedi al tuo account Twitter nelle impostazioni di sistema?</string>
+		<key>prompt</key>
+		<string>Sollecito</string>
+		<key>login</key>
+		<string>Login</string>
+		<key>networkError</key>
+		<string>Problema di rete</string>
+		<key>successAuthorize</key>
+		<string>Successo autorizzato</string>
+		<key>failureAuthorize</key>
+		<string>L&apos;autorizzazione non è riuscita</string>
+		<key>cancel</key>
+		<string>Annulla a metà strada</string>
+	</dict>
+</dict>
+</plist>

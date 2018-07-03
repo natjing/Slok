@@ -1,0 +1,98 @@
+//
+//  PrefixHeader.pch
+//  Slok
+//
+//  Created by LiuHao on 2017/5/20.
+//  Copyright © 2017年 LiuHao. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import "keyPath.h"
+#import "HeaderField.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define Localized(key)  [[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"appLanguage"]] ofType:@"lproj"]] localizedStringForKey:(key) value:nil table:@"Language"]
+
+#define LHProgressHUD(title)\
+dispatch_async(dispatch_get_main_queue(), ^{\
+MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];\
+hud.mode = MBProgressHUDModeText;\
+hud.label.text = title;\
+hud.label.numberOfLines = 0;\
+hud.offset = CGPointMake(0.f, 0.f);\
+[hud hideAnimated:YES afterDelay:2.0f];\
+})
+
+#define LHProgressHUD_Bottom(title)\
+dispatch_async(dispatch_get_main_queue(), ^{\
+MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];\
+hud.mode = MBProgressHUDModeText;\
+hud.label.text = title;\
+hud.offset = CGPointMake(0.f, [UIScreen mainScreen].bounds.size.height/4.0);\
+[hud hideAnimated:YES afterDelay:2.0f];\
+})
+
+#define LHCornerRadius(View,Radius)\
+View.layer.cornerRadius = Radius;\
+View.layer.masksToBounds = YES
+
+#define LHShowHUB(hud) MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];\
+hud.userInteractionEnabled=NO
+
+#define LHHideHUB(hud) \
+        dispatch_async(dispatch_get_main_queue(), ^{\
+            [hud hideAnimated:YES];\
+        })
+
+#define If_Respose_Success(result,error) if(!error && result && [result isKindOfClass:[NSDictionary class]] && [result[@"result"] intValue] == 1)
+
+#define Else_If_Error(result,error) else if(!error && result && [result isKindOfClass:[NSDictionary class]] && [result[@"result"] intValue] != 1)
+
+#define LHTextFieldLeftView(textField,width)\
+    UILabel * leftView = [[UILabel alloc] initWithFrame:CGRectMake(0,0,width,0)];\
+    leftView.backgroundColor = [UIColor clearColor];\
+    textField.leftView = leftView;\
+    textField.leftViewMode = UITextFieldViewModeAlways;\
+    textField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter
+
+#define IS_USEFUL(string) (![string isKindOfClass:[NSNull class]]&&string != nil&&string.length != 0) ? YES : NO
+
+#define IF_NO_USEFUL_RETURN(string) if([string isKindOfClass:[NSNull class]] || string == nil || string.length == 0) return
+
+#define IF_RESPOSE_SUCCESS(result,error) if(error == nil && result && [result isKindOfClass:[NSDictionary class]] && result[@"result"] && [result[@"result"] integerValue] == 1 && [result[@"result"] boolValue] == YES)
+
+#define IF_WECHAT_SUCCESS(result,error) if(error == nil && result)
+
+#define IF_FACEBOOK_SUCCESS(result,error) if(error == nil && result)
+
+#define ELSE_IF(result, error) else if(error == nil && result && [result isKindOfClass:[NSDictionary class]] && result[@"result"] && [result[@"result"] integerValue] != 1)
+
+#define LHRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define ObjcKeyPath(objc,keyPath) @(((void)objc.keyPath,#keyPath))
+
+#define LHShadowColor(view)\
+view.layer.shadowOpacity = 0.5;\
+view.layer.shadowColor = [UIColor grayColor].CGColor;\
+view.layer.shadowRadius = 3;\
+view.layer.shadowOffset  = CGSizeMake(1, 1)
+
+#define LHSW [UIScreen mainScreen].bounds.size.width
+
+#define LHSH [UIScreen mainScreen].bounds.size.height
+
+#define OBJECT_AT_INDEX(Array,Integer) ((Integer >= Array.count) || (Integer < 0) ? nil : Array[Integer])
+
+#define ISNULL(x)    [x isKindOfClass:[NSNull class]]
+
+#define ISNil(x)     x == nil
+
+
+#endif
+
+#endif /* PrefixHeader_pch */
+#define DLog(fmt,...) NSLog((@"%s - [Line %d] \n" fmt), __PRETTY_FUNCTION__, __LINE__,##__VA_ARGS__);

@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +22,51 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreen1" translatesAutoresizingMaskIntoConstraints="NO" id="3Ss-QQ-oZg">
+                                <rect key="frame" x="0.0" y="0.0" width="375.5" height="519.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3Ss-QQ-oZg" secondAttribute="height" multiplier="750:1038" id="h44-Pk-Afs"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RPD-Ck-Hcr">
+                                <rect key="frame" x="16" y="519.5" width="343" height="147.5"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreen2" translatesAutoresizingMaskIntoConstraints="NO" id="UYo-6Z-NRZ">
+                                        <rect key="frame" x="121.5" y="24" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="C9X-u1-pPQ"/>
+                                            <constraint firstAttribute="width" constant="100" id="lFJ-Fa-LhI"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="UYo-6Z-NRZ" firstAttribute="centerX" secondItem="RPD-Ck-Hcr" secondAttribute="centerX" id="YLA-TD-dwN"/>
+                                    <constraint firstItem="UYo-6Z-NRZ" firstAttribute="centerY" secondItem="RPD-Ck-Hcr" secondAttribute="centerY" id="xTb-U4-518"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RPD-Ck-Hcr" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="BBA-ui-F1E"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RPD-Ck-Hcr" secondAttribute="trailing" id="ieS-3g-yHu"/>
+                            <constraint firstItem="RPD-Ck-Hcr" firstAttribute="top" secondItem="3Ss-QQ-oZg" secondAttribute="bottom" id="jDE-z6-eUc"/>
+                            <constraint firstItem="3Ss-QQ-oZg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="jdj-l8-RB5"/>
+                            <constraint firstItem="3Ss-QQ-oZg" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="p9e-0T-hLL"/>
+                            <constraint firstAttribute="trailing" secondItem="3Ss-QQ-oZg" secondAttribute="trailing" id="rIh-SF-Gbv"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="RPD-Ck-Hcr" secondAttribute="bottom" id="x9Z-fe-eaQ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="launchscreen1" width="750" height="1037"/>
+        <image name="launchscreen2" width="198" height="198"/>
+    </resources>
 </document>

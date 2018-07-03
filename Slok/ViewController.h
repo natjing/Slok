@@ -7,9 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TJGreenControl.h"
 
-@interface ViewController : UIViewController
+#import <Firebase/Firebase.h>
+#import <GoogleSignIn/GoogleSignIn.h>
+#import <AVFoundation/AVFoundation.h>
 
-
+typedef void(^block) (void);
+@interface ViewController : UIViewController<GIDSignInDelegate,NSXMLParserDelegate>
+{
+    
+    TJGreenControl *lockNumPageControl;
+}
+-(void)reloadDataInViewController;
+@property(nonatomic,strong)block refreshBlock;
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 @end
 

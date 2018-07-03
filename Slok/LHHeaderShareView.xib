@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LHHeaderShareView">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="89"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fe6-ES-Brt">
+                    <rect key="frame" x="0.0" y="15" width="327" height="59"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OXf-ft-x45">
+                            <rect key="frame" x="267" y="14" width="30" height="31"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="Ojp-z1-nnA"/>
+                                <constraint firstAttribute="width" secondItem="OXf-ft-x45" secondAttribute="height" multiplier="61:62" id="j26-nL-TBb"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m25-U9-aHE">
+                            <rect key="frame" x="30" y="0.0" width="0.0" height="59"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P8O-Me-02i">
+                            <rect key="frame" x="30" y="0.0" width="0.0" height="59"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="P8O-Me-02i" secondAttribute="bottom" id="7uc-cF-k40"/>
+                        <constraint firstAttribute="trailing" secondItem="OXf-ft-x45" secondAttribute="trailing" constant="30" id="9PD-kO-3Rb"/>
+                        <constraint firstItem="OXf-ft-x45" firstAttribute="centerY" secondItem="fe6-ES-Brt" secondAttribute="centerY" id="ANW-vT-QIC"/>
+                        <constraint firstItem="m25-U9-aHE" firstAttribute="leading" secondItem="fe6-ES-Brt" secondAttribute="leading" constant="30" id="DeX-2i-iE3"/>
+                        <constraint firstItem="P8O-Me-02i" firstAttribute="top" secondItem="fe6-ES-Brt" secondAttribute="top" id="FL6-Vr-WbZ"/>
+                        <constraint firstItem="m25-U9-aHE" firstAttribute="top" secondItem="fe6-ES-Brt" secondAttribute="top" id="GAn-6H-M1b"/>
+                        <constraint firstAttribute="bottom" secondItem="m25-U9-aHE" secondAttribute="bottom" id="lO8-hH-FWO"/>
+                        <constraint firstItem="P8O-Me-02i" firstAttribute="leading" secondItem="m25-U9-aHE" secondAttribute="trailing" id="m0V-aD-AHz"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="fe6-ES-Brt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="HUA-ru-GGO"/>
+                <constraint firstAttribute="trailing" secondItem="fe6-ES-Brt" secondAttribute="trailing" id="XKN-kc-6Ss"/>
+                <constraint firstAttribute="bottom" secondItem="fe6-ES-Brt" secondAttribute="bottom" constant="15" id="di9-Zm-8d6"/>
+                <constraint firstItem="fe6-ES-Brt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zpl-8u-P0e"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="operationtips" destination="m25-U9-aHE" id="hep-Ly-egf"/>
+                <outlet property="settingKeyImageView" destination="OXf-ft-x45" id="Tp7-6j-hWS"/>
+                <outlet property="shareLockLable" destination="P8O-Me-02i" id="NEQ-Xi-t86"/>
+            </connections>
+            <point key="canvasLocation" x="37.5" y="122.5"/>
+        </view>
+    </objects>
+</document>
