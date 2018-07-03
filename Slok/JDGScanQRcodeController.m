@@ -121,6 +121,11 @@
             viewController.scanNumber = [objc.stringValue substringToIndex:16];
             viewController.scanMac =@"";
             [self.navigationController pushViewController:viewController animated:YES];
+        }else if(objc.stringValue.length==21){
+            LHCodeLockViewController *viewController = [[LHCodeLockViewController alloc] init];
+            viewController.scanNumber = [objc.stringValue substringToIndex:16];
+            viewController.scanMac =@"";
+            [self.navigationController pushViewController:viewController animated:YES];
         }else{
             [self PopupsTips];
         }
